@@ -1,0 +1,254 @@
+@font-face {
+    font-family: booker;
+    src: url("booker-italic-personal-use.ttf");
+}
+@font-face {
+    font-family: porter;
+    src: url("porter-sans-inline-block.ttf");
+}
+@font-face {
+    font-family: progress;
+    src: url("ProgressPersonalUse-EaJdz.ttf");
+}
+@font-face {
+    font-family: leegione;
+    src: url("Leegione-1GL6j.ttf");
+}
+@font-face {
+    font-family: orbitron;
+    src: url("Orbitron-Regular.ttf");
+}
+@font-face {
+    font-family: baloo bhai;
+    src: url("BalooBhai-Regular.ttf");
+}
+@font-face {
+    font-family: bruno ace;
+    src: url("BrunoAce-Regular.ttf");
+}
+@font-face {
+    font-family: prompt;
+    src: url("Prompt-Regular.woff");
+}
+/* @media screen and (max-width:2560px) {
+    .t18 {
+        font-size: 25px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    
+    #about_i1 {
+        border: inset;
+        height: 400px;
+    }
+    #about_i2 {
+        height: 380px;
+    }
+    .heading {
+        font-size: 130px;
+    }
+    .para {
+        margin: 15px 10rem;
+        font-family: Orbitron;
+        font-size: 35px;
+    }
+    } */
+/* @media screen and (max-width1800px) { */
+    /* laptop */
+    body{
+    margin: 0;
+    padding: 0;
+ background: linear-gradient(109deg, #FFF -0.31%, rgba(158, 158, 158, 0.85) 55.4%, rgba(255, 255, 255, 0.81) 106.45%);;
+}
+.menu{
+    display: none;
+}
+.img {
+    margin: -50px -65px;
+    z-index: 1;
+    width: 400px;
+    border-radius: 97px;
+}
+nav {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 20%;
+}
+.link{
+    display: flex;
+    color: #000;
+    font-family: BOOKER ITALIC PERSONAL USE;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.739px;
+}
+.t18{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.li{
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+#about_i1 {
+    border: inset;
+    height: 350px;
+    flex-shrink: 0;
+    box-shadow: 7px 6px 19px 0px rgba(0, 0, 0, 0.71);
+}
+#about_i2 {
+    border: outset;
+    z-index: -1;
+    margin: 0 -35px;
+    height: 320px;
+    flex-shrink: 0;
+    box-shadow: 7px 6px 19px 0px rgba(0, 0, 0, 0.71);
+}
+
+.searchbar {
+    background-color: #ffffffe8;
+    /* padding: 15px 80px; */
+    margin: 10px 0;
+    border: 4px solid transparent;
+    border-image: url(black-and-green-abstract-liquid-cyu7i06wgucxoq5g.webp) 30 stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 45px;
+}
+.text{
+    color: #000;
+font-family: BOOKER ITALIC PERSONAL USE;
+font-size: 15px;
+font-style: italic;
+letter-spacing: 0.739px;
+}
+.heading{
+    text-align: center;
+    font-family: BOOKER ITALIC PERSONAL USE;
+    font-size: 80px;
+    font-style: italic;
+    letter-spacing: 4px;
+    color:rgba(0, 0, 0, 1);
+}
+.para {
+    margin: 15px 10rem;
+    font-family: Orbitron;
+    font-size: 25px;
+    background: url(plain-green-background-blyxei05k6f9gblj.webp), lightgray 50% / cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-container {
+    margin: 6%;
+}
+
+.image-container {
+    margin: 100px 80px 0px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* } */
+
+@media screen and (max-width:1050px) {
+    #about_i1 {
+        height: 320px;
+    }
+    #about_i2 {
+        height: 290px;
+    }
+    .para {
+        margin: 15px 5rem;
+    }
+}
+@media screen and (max-width:850px) {
+.searchbar {
+    height: 25px;
+    margin: 8px 0;
+    border: 3px solid transparent;
+    border-image: url(black-and-green-abstract-liquid-cyu7i06wgucxoq5g.webp) 30 stretch;
+    width: 100px;
+}
+::placeholder{
+font-size: 10px;
+}
+nav{
+    margin: 0 10px;
+}
+.logo {
+    width: 18%;
+}
+.t18 {
+    font-size: 15px;
+}
+.li {
+    margin: 8px;
+    padding: 0px 8px;
+}
+#about_i1 {
+    height: 250px;
+}
+#about_i2 {
+    height: 220px;
+}
+.heading {
+    font-size: 70px;
+}
+.para {
+    font-size: 20px;
+    margin: 15px 3rem;
+}
+.image-container {
+    margin: 70px;
+}
+}
+@media screen and (max-width:650px) {
+.logo {
+    width: 30%;
+}
+.link {
+    display: none ;
+}
+.searchbar {
+    width: 120px;
+}
+#about_i1 {
+    height: 180px;
+}
+#about_i2 {
+    height: 160px;
+}
+.heading {
+    font-size: 45px;
+}
+.para {
+    font-size: 15px;
+    margin: 15px 1rem;
+}
+.image-container {
+    margin: 50px 20px;
+}
+}
+@media screen and (max-width:400px){
+    .menu{
+                transition: 5s ease-in-out;
+                display: block;
+                width: 30px;
+            }
+    .link{
+        display: none;
+    }
+        }
