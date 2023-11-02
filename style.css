@@ -76,7 +76,7 @@ nav {
 .link{
     display: flex;
     color: #000;
-    font-family: BOOKER ITALIC PERSONAL USE;
+    font-family: booker;
     font-style: italic;
     letter-spacing: 0.739px;
 }
@@ -101,7 +101,7 @@ nav {
 ::placeholder{
     text-align: center;
     color: #000;
-font-family: BOOKER ITALIC PERSONAL USE;
+font-family: booker;
 font-size: 15px;
 font-style: italic;
 letter-spacing: 0.739px;
@@ -139,13 +139,13 @@ section.first {
 }
 .text2{
     color: #000;
-font-family: PROGRESS PERSONAL USE;
+font-family: progress;
 font-size: 55px;
 letter-spacing: 2.722px;
 }
 .text3{
     color: #000;
-font-family: Porter Sans Block;
+font-family: porter;
 font-size: 25px;
 line-height: normal;
 }
@@ -172,7 +172,7 @@ line-height: normal;
 }
 .heading {
     text-align: center;
-    font-family: BOOKER ITALIC PERSONAL USE;
+    font-family: booker;
     font-size: 80px;
     font-style: italic;
     letter-spacing: 4px;
@@ -186,7 +186,7 @@ line-height: normal;
 }
 .para {
     font-size: 25px;
-    font-family: Orbitron;
+    font-family: orbitron;
     background: url(plain-green-background-blyxei05k6f9gblj.webp), lightgray 50% / cover no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
@@ -266,7 +266,7 @@ line-height: normal;
 }
 
 .e-1{
-    font-family: Baloo Bhai;
+    font-family: baloo bhai;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -279,7 +279,7 @@ background-clip: text;
 }
 .e-2{
     color: #000;
-font-family: Bruno Ace;
+font-family: bruno ace;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -287,7 +287,7 @@ letter-spacing: 0.8px;
 }
 .e-3{
     color: #FFF;
-font-family: Prompt;
+font-family: prompt;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -312,7 +312,7 @@ letter-spacing: 0.8px;
 
 }
 #foot{
-font-family: BOOKER ITALIC PERSONAL USE;
+font-family: booker;
 font-size: 30px;
 font-style: italic;
 letter-spacing: 2.722px;
@@ -320,7 +320,7 @@ letter-spacing: 2.722px;
 
 .home{
     color: #000;
-font-family: BOOKER ITALIC PERSONAL USE;
+font-family: booker;
 font-style: italic;
 font-weight: 400;
 line-height: normal;
@@ -330,7 +330,7 @@ text-transform: uppercase;
 .contact {
     padding: 1px 5px;
     color: #000;
-    font-family: Open Sans;
+    font-family: open sans;
     /* font-size: 20px; */
     font-style: normal;
     border-bottom: 2px solid #626262;
