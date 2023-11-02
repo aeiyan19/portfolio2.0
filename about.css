@@ -2,59 +2,11 @@
     font-family: booker;
     src: url("booker-italic-personal-use.ttf");
 }
-@font-face {
-    font-family: porter;
-    src: url("porter-sans-inline-block.ttf");
-}
-@font-face {
-    font-family: progress;
-    src: url("ProgressPersonalUse-EaJdz.ttf");
-}
-@font-face {
-    font-family: leegione;
-    src: url("Leegione-1GL6j.ttf");
-}
+
 @font-face {
     font-family: orbitron;
     src: url("Orbitron-Regular.ttf");
 }
-@font-face {
-    font-family: baloo bhai;
-    src: url("BalooBhai-Regular.ttf");
-}
-@font-face {
-    font-family: bruno ace;
-    src: url("BrunoAce-Regular.ttf");
-}
-@font-face {
-    font-family: prompt;
-    src: url("Prompt-Regular.woff");
-}
-/* @media screen and (max-width:2560px) {
-    .t18 {
-        font-size: 25px;
-    }
-    .text {
-        font-size: 25px;
-    }
-    
-    #about_i1 {
-        border: inset;
-        height: 400px;
-    }
-    #about_i2 {
-        height: 380px;
-    }
-    .heading {
-        font-size: 130px;
-    }
-    .para {
-        margin: 15px 10rem;
-        font-family: Orbitron;
-        font-size: 35px;
-    }
-    } */
-/* @media screen and (max-width1800px) { */
     /* laptop */
     body{
     margin: 0;
@@ -82,7 +34,7 @@ nav {
 .link{
     display: flex;
     color: #000;
-    font-family: BOOKER ITALIC PERSONAL USE;
+    font-family: booker;
     font-size: 20px;
     font-style: italic;
     letter-spacing: 0.739px;
@@ -129,14 +81,14 @@ a{
 }
 .text{
     color: #000;
-font-family: BOOKER ITALIC PERSONAL USE;
+font-family: booker;
 font-size: 15px;
 font-style: italic;
 letter-spacing: 0.739px;
 }
 .heading{
     text-align: center;
-    font-family: BOOKER ITALIC PERSONAL USE;
+    font-family: booker;
     font-size: 80px;
     font-style: italic;
     letter-spacing: 4px;
@@ -144,7 +96,7 @@ letter-spacing: 0.739px;
 }
 .para {
     margin: 15px 10rem;
-    font-family: Orbitron;
+    font-family: orbitron;
     font-size: 25px;
     background: url(plain-green-background-blyxei05k6f9gblj.webp), lightgray 50% / cover no-repeat;
     background-clip: text;
